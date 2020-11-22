@@ -36,11 +36,11 @@ public class Woodwind extends Instrument implements IPlay, ISell {
         return (sellPrice - buyPrice)/buyPrice;
     }
 
-    public Double getBuyPrice() {
+    public double getBuyPrice() {
         return buyPrice;
     }
 
-    public Double getSellPrice() {
+    public double getSellPrice() {
         return sellPrice;
     }
 }
